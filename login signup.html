@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <title> login/signup page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./login signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@100&family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="body">
+        <div class="add" id="add">
+            <img src="./girl.png" class="girlimg" alt="girl with bag">
+            <section class="back"></section>
+            <div class="content">
+                <p class="p1">NEW ARRIVALS</p>
+                <p class="p2">JUST<br>F O R</p>
+                <p class="p3">you</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="userpart">
+                <div class="headuser">
+                    <div class="rephead">
+                        <pre class="h1"> <img src="./logo.png" class="logo" alt="logo">&nbsp;SAN <span>LIFESTYLE.</span></pre>
+                    </div>
+                    <div class="tabc">
+                        <button class="signintab" onclick="changeTab('SignIn')">Sign in</button>
+                        <button class="signuptab" onclick="changeTab('SignUp')">Sign up</button>
+                    </div>
+                    <div id="signinde">
+
+                        <input type="text" id="username" class="username" placeholder="Enter your username">
+                        <div class="icon">
+                            <img src="./user.svg" alt="icon" class="usericon">
+                            <img src="./unlock.svg" alt="icon" class="passwordeicon">
+                        </div>
+                        <input type="text" id="password" class="password" placeholder="Enter your password">
+                        <input type="checkbox" id="checkbox" class="checkbox"><label for="checkbox" class="label">Remember Me</label>
+                        <a href="#." class="forget">Forgot password?</a>
+                        <button class="submitin"> SIGN IN</button>
+                        <a href="#a" class="create">New on our platform? Create an account?</a>
+                        <div>
+                            <p class="or">Or</p>
+                            <p class="option">With your social network</p>
+                            <img src="./google.png" alt="fblogo" class="fb">
+                            <img src="./fb.png" alt="google" class="google">
+                        </div>
+                    </div>
+                    <div id="signupde">
+                        <input type="text" id="username2" class="username" placeholder="Enter your username">
+                        <br>
+                        <input type="text" id="email2" class="email" placeholder="Enter your email">
+                        <br>
+                        <input type="text" id="pass2" class="pass" placeholder="Enter your password">
+                        <br>
+                        <input type="text" id="pass3" class="pass2" placeholder="Confirm your password">
+                        <div class="icon">
+                            <img src="./user.svg" alt="icon" class="usericon2">
+                            <img src="./unlock.svg" alt="icon" class="passwordeicon2">
+                            <img src="./unlock.svg" alt="icon" class="passwordeicon3">
+                            <img src="./envelope-solid.svg " class="env">
+                        </div>
+                        <button class="submitin2"> SIGN IN</button>
+                        <a href="#a" class="create2">Alerady have an account?<span class="span2">sign in instead</span></a>
+                        <div>
+                            <p class="or">Or</p>
+                            <p class="option">With your social network</p>
+                            <img src="./google.png" alt="fblogo" class="fb">
+                            <img src="./fb.png" alt="google" class="google">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./login signup.js"></script>
+    </div>
+
+    </div>
+    </div>
+
+</body>
+
+</html>

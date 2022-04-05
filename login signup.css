@@ -1,0 +1,479 @@
+.userpart {
+    float: right;
+    margin-top: 100px;
+    margin-left: 4px;
+    margin-right: -40px;
+}
+
+.add {
+    box-shadow: 0 0 25px 0px #778ca3;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #5446d0;
+    width: 900px;
+    height: 760px;
+    border-radius: 15px;
+}
+
+.p1 {
+    font-size: 40px;
+    color: #bfc7d3c5;
+    margin-top: -730px;
+    margin-left: 75px;
+    float: left;
+    font-family: sans-serif;
+}
+
+.p2 {
+    float: left;
+    margin-top: -670px;
+    margin-left: 75px;
+    color: #bfc7d3c5;
+    font-size: 130px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 1000;
+    line-height: 0.8;
+}
+
+.p3 {
+    font-family: 'Dancing Script', cursive;
+    float: left;
+    font-size: 150px;
+    margin-top: -590px;
+    margin-left: 160px;
+    color: rgb(207, 158, 66);
+    transform: rotate(343deg);
+    width: 130px;
+    font-weight: 1000;
+}
+
+span {
+    color: rgba(0, 0, 0, 0.383);
+    margin-right: 230px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.h1 {
+    font-size: solid;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 80px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.logo {
+    height: 23px;
+    width: 23px;
+}
+
+button {
+    background-color: white;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    border-width: 0.5px;
+    border-top-color: rgba(0, 0, 0, 0.145);
+    font-size: 15px;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-left: 0px;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.596);
+}
+
+.signintab {
+    margin-left: 130px;
+}
+
+.signintab:hover {
+    border-width: 3px;
+    border-top-color: #5446d0;
+    color: #5446d0;
+}
+
+.selectedTab {
+    border-width: 3px;
+    border-top-color: #5446d0;
+    color: #5446d0;
+}
+
+.signuptab {
+    padding-left: 30px;
+    margin-left: -3px;
+}
+
+.signuptab:hover {
+    border-width: 3px;
+    border-top-color: #5446d0;
+    color: #5446d0;
+}
+
+.outer {
+    border-radius: 15px;
+    border-color: #778ca3;
+    border: 10px;
+    box-shadow: 0 10px 0 #778ca3;
+    border-radius: 10px;
+}
+
+.body {
+    overflow: visible;
+    box-shadow: 0px 0px 10px 5px #778ca3;
+    margin: 10px;
+    margin-top: 75px;
+    margin-left: 150px;
+    padding: 10px;
+    border-color: #778ca3;
+    border-width: 130px;
+    width: 1500px;
+    height: 800px;
+    border-radius: 50px;
+    border: 10px solid rgba(0, 0, 0, 0.678);
+}
+
+.back {
+    margin-right: 20px;
+    float: right;
+    height: 580px;
+    width: 550px;
+    border-radius: 300px;
+    margin-top: -750px;
+    background-color: #7b6cff28;
+}
+
+.girlimg {
+    float: left;
+    margin-top: -86px;
+    height: 950px;
+    width: 1500px;
+    margin-left: 0px;
+}
+
+.username {
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    margin-top: 60px;
+    margin-left: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 0.5px;
+    width: 370px;
+    text-indent: 25px;
+}
+
+.password {
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    margin-top: 120px;
+    margin-left: -370px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 0.5px;
+    width: 370px;
+    text-indent: 25px;
+}
+
+.checkbox {
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    margin-top: 205px;
+    margin-left: -545px;
+}
+
+.label {
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    margin-top: 200px;
+    margin-left: -350px;
+    color: rgba(0, 0, 0, 0.753);
+}
+
+.forget {
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    margin-top: 200px;
+    margin-left: -110px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.808);
+}
+
+.submitin {
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    margin-top: 0px;
+    margin-left: 20px;
+    border: none;
+    width: 390px;
+    height: 50px;
+    background-color: #5446d0;
+    border-radius: 05px;
+    font-size: 15px;
+    color: white;
+    font-weight: 1000;
+    padding-bottom: 7px;
+    font-weight: 105px;
+}
+
+.submitin2 {
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    margin-top: 0px;
+    margin-left: 20px;
+    border: none;
+    width: 390px;
+    height: 50px;
+    background-color: #5446d0;
+    border-radius: 05px;
+    font-size: 15px;
+    color: white;
+    font-weight: 1000;
+    padding-bottom: 7px;
+}
+
+.create {
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    margin-top: 70px;
+    margin-right: 100px;
+    margin-left: -380px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.808);
+    line-height: 2;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.usericon {
+    margin-top: -23px;
+    opacity: 0.5;
+}
+
+.passwordeicon {
+    margin-top: 53px;
+    opacity: 0.5;
+}
+
+.or {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 330px;
+    margin-left: 200px;
+}
+
+.option {
+    font-family: 'Poppins', sans-serif;
+    margin-top: -20px;
+    margin-left: 130px;
+    line-height: 5;
+}
+
+.fb {
+    height: 35px;
+    height: 35px;
+    margin-left: 180px;
+    margin-top: -80px;
+}
+
+.google {
+    height: 35px;
+    height: 35px;
+    margin-left: 20px;
+    padding-left: 0px;
+    margin-top: -80px;
+}
+
+.email {
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 0.5px;
+    width: 370px;
+    text-indent: 25px;
+}
+
+.pass {
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    margin-top: 35px;
+    margin-left: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 0.5px;
+    width: 370px;
+    text-indent: 25px;
+}
+
+.pass2 {
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    margin-top: 37px;
+    margin-left: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 0.5px;
+    width: 370px;
+    text-indent: 25px;
+}
+
+.submitin2 {
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: none;
+    width: 390px;
+    height: 50px;
+    background-color: #5446d0;
+    border-radius: 05px;
+    font-size: 15px;
+    color: white;
+    font-weight: 1000;
+    padding-bottom: 7px;
+}
+
+.create2 {
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    margin-top: 100px;
+    margin-right: -350px;
+    margin-left: -350px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.808);
+    line-height: 1px;
+    width: 600px;
+}
+
+.span2 {
+    font-weight: 800;
+    color: #5446d0;
+}
+
+.footer {
+    margin-top: 400px;
+    margin-left: 10px;
+    line-height: 2;
+}
+
+.usericon2 {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin-left: -370px;
+    margin-top: 15px;
+    opacity: 0.5;
+}
+
+.env {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin-left: -370px;
+    margin-top: 70px;
+    opacity: 0.5;
+}
+
+.passwordeicon2 {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin-left: -370px;
+    margin-top: 186px;
+    opacity: 0.5;
+}
+
+.passwordeicon3 {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin-left: -370px;
+    margin-top: 126px;
+    opacity: 0.5;
+}
+
+input {
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    margin-top: 60px;
+    margin-left: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 0.5px;
+    width: 370px;
+    text-indent: 25px;
+    outline: none;
+}
+
+@media only screen and (max-width: 736px) {
+    .add {
+        display: none;
+    }
+    .userpart {
+        position: absolute;
+        float: right;
+        display: grid;
+        margin-left: -10px;
+        margin-right: 50px;
+        font-size: 15px;
+    }
+    .body {
+        width: 330px;
+        height: 800px;
+        margin-left: 8px;
+    }
+}
+
+
+/* input {
+        overflow: hidden;
+        width: 100px;
+    }
+    .submitin,
+    .submitin2 {
+        width: 300px;
+        margin-left: 50px;
+    }
+    .username,
+    .password,
+    .username,
+    .email,
+    .pass,
+    .pass2 {
+        width: 300px;
+        margin-left: 50px;
+    }
+    .password {
+        margin-left: -300px;
+    }
+    .usericon,
+    .passwordeicon {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        margin-left: -300px;
+    }
+    .usericon {
+        margin-top: 60px;
+    }
+    .passwordeicon {
+        margin-top: 140px;
+    }
+    .create,
+    .create2 {
+        font-size: 15px;
+        margin-right: -90px;
+    } */
